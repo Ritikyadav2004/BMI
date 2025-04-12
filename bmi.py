@@ -14,7 +14,7 @@ button1 = st.button("Click Me")
 # SOME FANCY THINGS
 if(button1):
     with st.spinner("In Progress..."):
-        time.sleep(2)
+        time.sleep(1)
         st.success("Done",icon="✅")
     st.write(f"### Your BMI is {bmi:.2f} ###")
     if(bmi<18.5):
@@ -33,3 +33,4 @@ st.write("- Underweight : BMI less than 18.5 ")
 st.write("- Normal Weight : BMI between 18.5 and 24.9")
 st.write("- Overweight : BMI between 25 and 29.9")
 st.write("- Obesity : BMI 30 or greater")
+st.markdown("Thanks for Visiting my BMI Calculator App")
