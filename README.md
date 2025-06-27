@@ -2,30 +2,27 @@ BMI Calculator App
 A simple and interactive BMI (Body Mass Index) Calculator built with Streamlit. This app lets users input their height and weight, calculates BMI, and provides instant feedback and health advice.
 
 🚀 Features
-Easy-to-use sliders for height (cm) and weight (kg)
+1.Easy-to-use sliders for height (cm) and weight (kg)
 
-Instant BMI calculation with one click
+2.Instant BMI calculation with one click
 
-Personalized health tips based on BMI category
+3.Personalized health tips based on BMI category
 
-Fun visual effects (spinner, snow, icons, etc.)
+4.Fun visual effects (spinner, snow, icons, etc.)
 
-Clear explanation of BMI categories
+5.Clear explanation of BMI categories
 
-📦 Installation
+1.📦 Installation
 Clone this repository:
-
 bash
 git clone https://github.com/yourusername/bmi-calculator-app.git
 cd bmi-calculator-app
 
-Install dependencies:
-
+2.Install dependencies:
 bash
 pip install streamlit pandas
 
-Run the app:
-
+3.Run the app:
 bash
 streamlit run app.py
 
